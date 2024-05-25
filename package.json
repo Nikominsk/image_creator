@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@getbrevo/brevo": "^2.1.1",
+    "nuxt": "^3.11.2",
+    "nuxt-newsletter": "^0.2.0",
+    "sib-api-v3-sdk": "^8.5.0",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  }
+}
